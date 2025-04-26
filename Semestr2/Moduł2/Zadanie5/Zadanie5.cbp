@@ -32,7 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="SewerynMaliszFunctions.h" />
+		<Unit filename="dane.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="zadanie5.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
