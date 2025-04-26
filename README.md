@@ -1,5 +1,5 @@
-# MyCppProjects
+# WSTI
 
-Collection of my Java projects.
+Branch for my studies projects.
 
-Projects I've made for educatinal, fun, etc. purposes
+Basicly used as a backup.
