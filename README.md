@@ -1,6 +1,6 @@
 # MyCppProjects
 
-Collection of my Java projects.
+Collection of my C++ projects.
 
 Projects I've made for educatinal, fun, etc. purposes.
 
