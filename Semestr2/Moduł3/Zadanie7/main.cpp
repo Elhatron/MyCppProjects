@@ -19,9 +19,9 @@ int main()
     while (!we.eof())
     {
         we >> a;
-        cout << a;
         if (we)
         {
+            cout << a;
             licznik++;
         }
     }
