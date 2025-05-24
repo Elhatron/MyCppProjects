@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1748108629 source:e:\programowanie\mycppprojects\semestr2\modu³4\zadanie2\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<iomanip>
+

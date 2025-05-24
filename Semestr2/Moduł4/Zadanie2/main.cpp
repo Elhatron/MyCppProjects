@@ -33,7 +33,7 @@ string determineStatus(double bmi) {
 int main() {
     ifstream input("dane_malisz.txt");
 
-    const char* outputFileName = "raport.html";
+    const char* outputFileName = "raport_malisz.html";
     ofstream output(outputFileName);
 
     if (!input.is_open() || !output.is_open()) {
@@ -54,14 +54,14 @@ int main() {
     }
 
     output << "<!DOCTYPE html>\n<html lang='pl'>\n<head>\n";
-    output << "<meta charset='UTF-8'>\n<title>Raport BMI</title>\n";
+    output << "<meta charset='UTF-8'>\n<title>Raport BMI Seweryn Malisz</title>\n";
     output << "<style>\n"
            << "table { border-collapse: collapse; width: 60%; margin: 20px auto; font-family: Arial; }\n"
            << "th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }\n"
            << "th { background-color: #f2f2f2; }\n"
            << "tr:nth-child(even) { background-color: #f9f9f9; }\n"
            << "</style>\n</head>\n<body>\n";
-    output << "<h2 style='text-align:center;'>Raport BMI</h2>\n";
+    output << "<h2 style='text-align:center;'>Raport BMI Seweryn Malisz</h2>\n";
     output << "<table>\n<tr><th>Waga (kg)</th><th>Wzrost (m)</th><th>BMI</th><th>Status</th></tr>\n";
 
     output << fixed << setprecision(2);
