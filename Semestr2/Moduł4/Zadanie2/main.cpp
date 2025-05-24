@@ -32,7 +32,9 @@ string determineStatus(double bmi) {
 
 int main() {
     ifstream input("dane_malisz.txt");
-    ofstream output("raport.html");
+
+    const char* outputFileName = "raport.html";
+    ofstream output(outputFileName);
 
     if (!input.is_open() || !output.is_open()) {
         cerr << "B³¹d otwarcia pliku!" << endl;
@@ -72,9 +74,10 @@ int main() {
 
     output << "</table>\n</body>\n</html>\n";
 
-    cout << "Dane zapisano do pliku raport.html" << endl;
+    cout << "Dane zapisano do pliku "<< outputFileName << endl;
 
     input.close();
     output.close();
+    system(outputFileName);
     return 0;
 }
